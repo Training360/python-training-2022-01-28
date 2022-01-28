@@ -1,0 +1,7 @@
+[MASTER]
+load-plugins=pylint_flask_sqlalchemy,pylint_flask
+
+ignored-classes=scoped_session
+
+[MESSAGES CONTROL]
+disable=C0111

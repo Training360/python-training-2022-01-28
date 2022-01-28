@@ -1,0 +1,25 @@
+### List
+GET http://localhost:5000/api/employees
+
+### Find by id
+GET http://localhost:5000/api/employees/222
+
+
+### Create
+POST http://localhost:5000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Jack Doe"
+}
+
+### Update
+PUT http://localhost:5000/api/employees/1
+Content-Type: application/json
+
+{
+    "name": "Jack Doe YYY"
+}
+
+### Delete
+DELETE http://localhost:5000/api/employees/39
